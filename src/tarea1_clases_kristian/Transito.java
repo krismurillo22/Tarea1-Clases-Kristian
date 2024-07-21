@@ -55,7 +55,7 @@ public class Transito {
         String todasmultas = "";
         for(int contar=0;contar<multas.length;contar++){
             if (multas[contar]!=null){
-                todasmultas+=multas[contar].print()+"\n";
+                todasmultas+=multas[contar].print()+"\n--------------------------------------\n";
             }
         }
         return todasmultas;
