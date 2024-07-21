@@ -32,7 +32,7 @@ public class Multa {
             this.montoPagar=TIPO_MEDIO;
         }else if (this.tipo.equals("GRAVE")){
             this.montoPagar=TIPO_GRAVE;
-        }else {
+        }else if(this.tipo.equals("    ")){
             this.tipo = "LEVE";
             this.montoPagar=TIPO_LEVE;
         }
