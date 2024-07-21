@@ -61,6 +61,14 @@ public class Transito {
         return todasmultas;
     }
     
+    public String imprimirMulta(int code){
+        Multa multa=buscar(code);
+        if (buscar(code)!=null){
+            return multa.print();
+        }
+        return null;
+    }
+    
     public String reportes(){
         int contadorpagados=0;
         int contadornopagados=0;
